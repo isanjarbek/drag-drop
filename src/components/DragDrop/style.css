@@ -1,0 +1,17 @@
+.drag_drop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.card {
+  width: 200px;
+  height: 300px;
+  border-radius: 12px;
+  border: 5px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  cursor: grab;
+}
